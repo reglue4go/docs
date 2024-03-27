@@ -1,8 +1,3 @@
----
-title: Stringable
-description: Stringable
----
-
 # Stringable
 
 > Table of Contents
