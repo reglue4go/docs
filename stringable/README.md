@@ -53,3 +53,5 @@ The lower method converts the given string to uppercase:
 ```go
 value := stringable.New("golang").Upper().Value() // GOLANG
 ```
+
+[![Go logo](https://reglue4go.github.io/docs/img/go/Go-Logo_Blue.svg 'Go logo')](https://reglue4go.github.io/docs/)
