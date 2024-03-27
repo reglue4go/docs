@@ -6,7 +6,7 @@ Reglue packages provide an enjoyable, expressive and elegant syntax for developi
 
 ## Package Listing
 
-> **Note:** This repository contains documentation for modules published at [Reglue Go](https://github.com/orgs/reglue4go/repositories)
+> **Note:** This repository contains documentation for packages published at [Reglue Go](https://github.com/orgs/reglue4go/repositories)
 
 -   [Stringable](https://reglue4go.github.io/docs/stringable/)
 -   [Config](https://reglue4go.github.io/docs/config)
