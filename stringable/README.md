@@ -1,5 +1,7 @@
 # Stringable
 
+[![MichaelCurrin - gh-pages-no-jekyll](https://img.shields.io/static/v1?label=MichaelCurrin&message=gh-pages-no-jekyll&color=blue&logo=github)](https://github.com/MichaelCurrin/gh-pages-no-jekyll)
+
 > Table of Contents
 
 -   [Introduction](#introduction)
@@ -8,7 +10,7 @@
 
 ## Introduction
 
-The stringable package provides a fluent chainable object-oriented interface for working with string values.
+The stringable package provides an expressive chainable interface for working with string values.
 
 ```go
 package main
