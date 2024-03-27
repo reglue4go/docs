@@ -1,3 +1,8 @@
+---
+title: Stringable
+description: Stringable
+---
+
 # Stringable
 
 > Table of Contents
@@ -10,37 +15,50 @@
 
 The stringable package provides a fluent chainable object-oriented interface for working with string values.
 
+```go
+package main
+
+import "github.com/reglue4go/stringable"
+
+func main() {
+	value := stringable.New("GOLANG").Lower().Ucfirst().Value()
+
+	fmt.Printf("%v\n", value) // Golang
+}
+
+```
+
 ## Available Methods
 
 Each method available on the stringable instance may be chained to fluently manipulate the underlying value.
 Almost every method returns a new stringable instance, allowing you to preserve the original copy of the value when necessary:
 
-| Stringable                 |                              |                              |
-| -------------------------- | ---------------------------- | ---------------------------- |
-| [Of](#stringable-of)       | [Substr](#stringable-substr) | [Before](#stringable-before) |
-| [Lower](#stringable-Lower) | [After](#stringable-After)   | [Upper](#stringable-upper)   |
-| [Upper](#stringable-Upper) |                              |                              |
+| Stringable      |                   |                   |
+| --------------- | ----------------- | ----------------- |
+| [Of](#Of)       | [Substr](#substr) | [Before](#before) |
+| [Lower](#Lower) | [After](#After)   | [Upper](#upper)   |
+| [Upper](#Upper) |                   |                   |
 
 ## Method listing
 
-### Stringable Lower
+#### Lower
 
 The lower method converts the given string to lowercase:
 
 ```go
-	value := New("GOLANG").Lower()
+	value := stringable.New("GOLANG").Lower()
 
     fmt.Printf("%v\n", value)
 
     // golang
 ```
 
-### Stringable Upper
+#### Upper
 
 The lower method converts the given string to uppercase:
 
 ```go
-	value := New("GOLANG").Upper()
+	value := stringable.New("GOLANG").Upper()
 
     fmt.Printf("%v\n", value)
 
