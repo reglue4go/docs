@@ -1,6 +1,6 @@
 # Stringable
 
-[![MichaelCurrin - gh-pages-no-jekyll](https://img.shields.io/static/v1?label=MichaelCurrin&message=gh-pages-no-jekyll&color=blue&logo=github)](https://github.com/MichaelCurrin/gh-pages-no-jekyll)
+[![Reglue Go - Stringable](https://img.shields.io/static/v1?label=coverage&message=100%&color=green&logo=coveralls)](https://github.com/reglue4go/stringable)
 
 > Table of Contents
 
