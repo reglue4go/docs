@@ -1,4 +1,4 @@
-<img src="https://reglue4go.github.io/docs/img/go/Go-Logo_Blue.svg" width="80" height="70.8" alt="Go logo">
+<img src="/docs/img/go/Go-Logo_Blue.svg" width="80" height="70.8" alt="Go logo">
 
 # [Documentation](https://reglue4go.github.io/docs)
 
