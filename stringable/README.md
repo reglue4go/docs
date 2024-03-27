@@ -4,7 +4,7 @@
 
 -   [Introduction](#introduction)
 -   [Available Methods](#available-methods)
--   [Method listing](#method-listing)
+-   [Method Listing](#method-listing)
 
 ## Introduction
 
@@ -34,7 +34,7 @@ Almost every method returns a new stringable instance, allowing you to preserve 
 | [Lower](#Lower) | [After](#After)     | [AfterLast](#AfterLast)   | [Substr](#substr) |
 | [Upper](#Upper) | [Before](#before)   |                           |                   |
 
-## Method listing
+## Method Listing
 
 #### Lower
 
