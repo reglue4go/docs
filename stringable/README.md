@@ -42,7 +42,7 @@ The lower method converts the given string to lowercase:
 
 ```go
 value := stringable.New("GOLANG").
-Lower().Value() // golang
+	Lower().Value() // golang
 ```
 
 #### Upper
@@ -51,5 +51,5 @@ The lower method converts the given string to uppercase:
 
 ```go
 value := stringable.New("golang").
-Upper().Value() // GOLANG
+	Upper().Value() // GOLANG
 ```
