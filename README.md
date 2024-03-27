@@ -1,6 +1,6 @@
-<img src="img/go/Go-Logo_Blue.svg" width="80" height="70.8" alt="Go logo">
+<img src="https://reglue4go.github.io/docs/img/go/Go-Logo_Blue.svg" width="80" height="70.8" alt="Go logo">
 
-# [Reglue Go](https://reglue4go.github.io/docs) - Documentation
+# [Documentation](https://reglue4go.github.io/docs)
 
 Reglue packages provide an enjoyable, expressive and elegant syntax for developing applications.
 
