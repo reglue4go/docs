@@ -1,5 +1,3 @@
-<img src="/docs/img/go/Go-Logo_Blue.svg" width="80" height="70.8" alt="Go logo">
-
 # [Documentation](https://reglue4go.github.io/docs)
 
 Reglue packages provide an enjoyable, expressive and elegant syntax for developing applications.
@@ -13,3 +11,5 @@ Reglue packages provide an enjoyable, expressive and elegant syntax for developi
 3.  [Cryptography](https://reglue4go.github.io/docs/cryptography)
 4.  [Database](https://reglue4go.github.io/docs/db)
 5.  [Database - GORM](https://reglue4go.github.io/docs/db4gorm)
+
+<img src="https://reglue4go.github.io/docs/img/go/Go-Logo_Blue.svg" width="80" height="70.8" alt="Go logo">
