@@ -5,9 +5,9 @@
 # title: [The title of your site]
 # description: [A short description of your site's purpose]
 
-theme: jekyll-theme-minimal
+# theme: jekyll-theme-minimal
 title: Reglue Go
 logo: img/go/Go-Logo_Blue.svg
-description: '' # Minimal is a theme for GitHub Pages.
-# show_downloads: true
-# google_analytics:
+description: ' ' # Minimal is a theme for GitHub Pages.
+show_downloads: false
+google_analytics:
