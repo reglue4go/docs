@@ -16,9 +16,9 @@ package main
 import "github.com/reglue4go/stringable"
 
 func main() {
-	value := stringable.New("GOLANG").Lower().Ucfirst().Value()
+	instance := stringable.New("GOLANG").Lower().Ucfirst()
 
-	fmt.Printf("%v\n", value) // Golang
+	fmt.Printf("%v\n", instance.Value()) // Golang
 }
 
 ```
@@ -28,7 +28,7 @@ func main() {
 Each method available on the stringable instance may be chained to fluently manipulate the underlying value.
 Almost every method returns a new stringable instance, allowing you to preserve the original copy of the value when necessary:
 
-| Stringable      |                   |                   |
+|                 |                   |                   |
 | --------------- | ----------------- | ----------------- |
 | [Of](#Of)       | [Substr](#substr) | [Before](#before) |
 | [Lower](#Lower) | [After](#After)   | [Upper](#upper)   |
@@ -41,9 +41,7 @@ Almost every method returns a new stringable instance, allowing you to preserve 
 The lower method converts the given string to lowercase:
 
 ```go
-value := stringable.New("GOLANG").Lower().Value()
-
-fmt.Printf("%v\n", value) // golang
+value := stringable.New("GOLANG").Lower().Value() // golang
 ```
 
 #### Upper
@@ -51,7 +49,5 @@ fmt.Printf("%v\n", value) // golang
 The lower method converts the given string to uppercase:
 
 ```go
-value := stringable.New("golang").Upper().Value()
-
-fmt.Printf("%v\n", value) // GOLANG
+value := stringable.New("golang").Upper().Value() // GOLANG
 ```
