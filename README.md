@@ -6,10 +6,10 @@ Reglue packages provide an enjoyable, expressive and elegant syntax for developi
 
 ## Package Listing
 
-> **Note:** This repository contains documentation for modules published at [Reglue Go](https://github.com/reglue4go)
+> **Note:** This repository contains documentation for modules published at [Reglue Go](https://github.com/reglue4go/repositories)
 
--   [Stringable](stringable)
--   [Config](config)
--   [Cryptography](cryptography)
--   [Database](db)
--   [Database - GORM](db4gorm)
+-   [Stringable](https://reglue4go.github.io/docs/stringable/)
+-   [Config](https://reglue4go.github.io/docs/config)
+-   [Cryptography](https://reglue4go.github.io/docs/cryptography)
+-   [Database](https://reglue4go.github.io/docs/db)
+-   [Database - GORM](https://reglue4go.github.io/docs/db4gorm)
