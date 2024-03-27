@@ -3,10 +3,10 @@
 [![Reglue Go - Stringable](https://img.shields.io/static/v1?label=coverage&message=100%&color=green&logo=coveralls)](https://github.com/reglue4go/stringable)
 
 > Table of Contents
-
--   [Introduction](#introduction)
--   [Available Methods](#available-methods)
--   [Method Listing](#method-listing)
+>
+> -   [Introduction](#introduction)
+> -   [Available Methods](#available-methods)
+> -   [Method Listing](#method-listing)
 
 ## Introduction
 
