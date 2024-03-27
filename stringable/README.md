@@ -41,8 +41,7 @@ Almost every method returns a new stringable instance, allowing you to preserve 
 The lower method converts the given string to lowercase:
 
 ```go
-value := stringable.New("GOLANG").
-			Lower().Value() // golang
+value := stringable.New("GOLANG").Lower().Value() // golang
 ```
 
 #### Upper
@@ -50,6 +49,5 @@ value := stringable.New("GOLANG").
 The lower method converts the given string to uppercase:
 
 ```go
-value := stringable.New("golang").
-			Upper().Value() // GOLANG
+value := stringable.New("golang").Upper().Value() // GOLANG
 ```
