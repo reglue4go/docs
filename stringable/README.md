@@ -28,11 +28,11 @@ func main() {
 Each method available on the stringable instance may be chained to fluently manipulate the underlying value.
 Almost every method returns a new stringable instance, allowing you to preserve the original copy of the value when necessary:
 
-|                 |                   |                   |
-| --------------- | ----------------- | ----------------- |
-| [Of](#Of)       | [Substr](#substr) | [Before](#before) |
-| [Lower](#Lower) | [After](#After)   | [Upper](#upper)   |
-| [Upper](#Upper) |                   |                   |
+|                 |                     |                           |                   |
+| --------------- | ------------------- | ------------------------- | ----------------- |
+| [Of](#Of)       | [NewLine](#NewLine) | [BeforeLast](#BeforeLast) | [Append](#Append) |
+| [Lower](#Lower) | [After](#After)     | [AfterLast](#AfterLast)   | [Substr](#substr) |
+| [Upper](#Upper) | [Before](#before)   |                           |                   |
 
 ## Method listing
 
@@ -41,7 +41,8 @@ Almost every method returns a new stringable instance, allowing you to preserve 
 The lower method converts the given string to lowercase:
 
 ```go
-value := stringable.New("GOLANG").Lower().Value() // golang
+value := stringable.New("GOLANG").
+					Lower().Value() // golang
 ```
 
 #### Upper
@@ -49,5 +50,6 @@ value := stringable.New("GOLANG").Lower().Value() // golang
 The lower method converts the given string to uppercase:
 
 ```go
-value := stringable.New("golang").Upper().Value() // GOLANG
+value := stringable.New("golang").
+					Upper().Value() // GOLANG
 ```
