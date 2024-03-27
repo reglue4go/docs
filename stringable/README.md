@@ -38,7 +38,7 @@ Almost every method returns a new stringable instance, allowing you to preserve 
 
 ## Method Listing
 
-#### Lower
+#### [Lower](#available-methods)
 
 The Lower method converts the given string to lowercase:
 
@@ -46,7 +46,7 @@ The Lower method converts the given string to lowercase:
 value := stringable.New("GOLANG").Lower().Value() // golang
 ```
 
-#### Upper
+#### [Upper](#available-methods)
 
 The Upper method converts the given string to uppercase:
 
