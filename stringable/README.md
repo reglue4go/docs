@@ -43,9 +43,7 @@ The lower method converts the given string to lowercase:
 ```go
 	value := stringable.New("GOLANG").Lower()
 
-    fmt.Printf("%v\n", value)
-
-    // golang
+    fmt.Printf("%v\n", value) // golang
 ```
 
 #### Upper
@@ -53,9 +51,7 @@ The lower method converts the given string to lowercase:
 The lower method converts the given string to uppercase:
 
 ```go
-	value := stringable.New("GOLANG").Upper()
+	value := stringable.New("golang").Upper()
 
-    fmt.Printf("%v\n", value)
-
-    // golang
+    fmt.Printf("%v\n", value) // GOLANG
 ```
