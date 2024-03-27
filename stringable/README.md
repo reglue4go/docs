@@ -33,14 +33,14 @@ Almost every method returns a new stringable instance, allowing you to preserve 
 |                 |                     |                           |                   |
 | --------------- | ------------------- | ------------------------- | ----------------- |
 | [Of](#Of)       | [NewLine](#NewLine) | [BeforeLast](#BeforeLast) | [Append](#Append) |
-| [Lower](#Lower) | [After](#After)     | [AfterLast](#AfterLast)   | [Substr](#substr) |
-| [Upper](#Upper) | [Before](#before)   |                           |                   |
+| [Lower](#lower) | [After](#After)     | [AfterLast](#AfterLast)   | [Substr](#substr) |
+| [Upper](#upper) | [Before](#before)   |                           |                   |
 
 ## Method Listing
 
 #### Lower
 
-The lower method converts the given string to lowercase:
+The Lower method converts the given string to lowercase:
 
 ```go
 value := stringable.New("GOLANG").Lower().Value() // golang
@@ -48,7 +48,7 @@ value := stringable.New("GOLANG").Lower().Value() // golang
 
 #### Upper
 
-The lower method converts the given string to uppercase:
+The Upper method converts the given string to uppercase:
 
 ```go
 value := stringable.New("golang").Upper().Value() // GOLANG
