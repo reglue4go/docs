@@ -17,7 +17,7 @@
 
 The stringable package provides an expressive chainable interface for working with string values.
 
-```go
+```
 package main
 
 import "github.com/reglue4go/stringable"
