@@ -11,6 +11,7 @@
 > -   [Introduction](#introduction)
 > -   [Available Methods](#available-methods)
 > -   [Method Listing](#method-listing)
+> -   [Unit Testing Matrix](#unit-testing-matrix)
 
 ## Introduction
 
@@ -172,5 +173,13 @@ The Upper method converts the given string to uppercase:
 value := stringable.New("golang").Upper().Value()
 // GOLANG
 ```
+
+## Unit Testing Matrix
+
+> | Go     | ubuntu | macos | windows |
+> | :----- | :----: | :---: | :-----: |
+> | 1.18.x |   ✓    |   ✓   |    ✓    |
+> | 1.20.x |   ✓    |   ✓   |    ✓    |
+> | 1.22.x |   ✓    |   ✓   |    ✓    |
 
 [![Go logo](https://reglue4go.github.io/docs/img/go/Go-Logo_Blue.svg 'Scroll up')](#top)
