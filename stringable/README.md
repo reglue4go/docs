@@ -1,7 +1,6 @@
 # Stringable
 
-[![Unit Test Coverage](https://img.shields.io/static/v1?label=coverage&message=100%&color=green&logo=coveralls)](https://github.com/reglue4go/stringable)
-
+[![Unit Test Coverage](https://img.shields.io/static/v1?label=coverage&message=100%&color=green&logo=coveralls)]
 [![linux](https://img.shields.io/static/v1?label=linux&message=✓&color=green&logo=linux)](#top)
 [![macos](https://img.shields.io/static/v1?label=macos&message=✓&color=green&logo=macos)](#top)
 [![windows](https://img.shields.io/static/v1?label=windows&message=✓&color=green&logo=windows10)](#top)
@@ -55,6 +54,24 @@ Almost every method returns a new stringable instance, allowing you to preserve 
 | [Wrap](#wrap)                 |                                     |                                   |                                   |
 
 ## Method Listing
+
+#### [BeforeLast](#available-methods)
+
+The BeforeLast method returns everything before the last occurrence of the given value in a string:
+
+```go
+value := stringable.New("This is my name").BeforeLast("is").Value()
+// "This "
+```
+
+#### [Before](#available-methods)
+
+The Before method returns everything before the given value in a string:
+
+```go
+value := stringable.New("This is my name").Before("my name").Value()
+// "This is "
+```
 
 #### [Basename](#available-methods)
 
