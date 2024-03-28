@@ -1,6 +1,6 @@
 # Stringable
 
-[![Reglue Go - Stringable](https://img.shields.io/static/v1?label=coverage&message=100%&color=green&logo=coveralls)](https://github.com/reglue4go/stringable)
+[![Unit Test Coverage](https://img.shields.io/static/v1?label=coverage&message=100%&color=green&logo=coveralls)](https://github.com/reglue4go/stringable)
 
 > Table Of Contents
 >
@@ -18,9 +18,9 @@ package main
 import "github.com/reglue4go/stringable"
 
 func main() {
-	instance := stringable.New("GOLANG").Lower().Ucfirst()
+	title := stringable.New("GO").Append("LanG").Ucfirst().Value()
 
-	fmt.Printf("%v\n", instance.Value()) // Golang
+	fmt.Printf("%v\n", title) // Golang
 }
 
 ```
@@ -52,6 +52,38 @@ Almost every method returns a new stringable instance, allowing you to preserve 
 
 ## Method Listing
 
+#### [Basename](#available-methods)
+
+The Basename method will return the trailing name component of the given string:
+
+```go
+value := stringable.New("/foo/bar/baz").Basename().Value() //  "baz"
+```
+
+#### [Append](#available-methods)
+
+The Append method appends the given values to the string:
+
+```go
+value := stringable.New("Pater").Append(" ", "White").Value() //  "Pater White"
+```
+
+#### [AfterLast](#available-methods)
+
+The AfterLast method method returns everything after the last occurrence of the given value in a string. The entire string will be returned if the value does not exist within the string:
+
+```go
+value := stringable.New("App\Http\Controllers\Controller").AfterLast("\\").Value() //  "Controller"
+```
+
+#### [After](#available-methods)
+
+The After method method returns everything after the given value in a string. The entire string will be returned if the value does not exist within the string:
+
+```go
+value := stringable.New("This is my name").After("This is").Value() //  " my name"
+```
+
 #### [Lower](#available-methods)
 
 The Lower method converts the given string to lowercase:
@@ -68,4 +100,4 @@ The Upper method converts the given string to uppercase:
 value := stringable.New("golang").Upper().Value() // GOLANG
 ```
 
-[![Go logo](https://reglue4go.github.io/docs/img/go/Go-Logo_Fuchsia.svg 'Go logo')](#top)
+[![Go logo](https://reglue4go.github.io/docs/img/go/Go-Logo_Blue.svg 'Scroll up')](#top)
