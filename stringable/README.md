@@ -57,6 +57,15 @@ Almost every method returns a new stringable instance, allowing you to preserve 
 
 ## Method Listing
 
+#### [Dirname](#available-methods)
+
+The Dirname method returns the parent directory portion of the given string:
+
+```go
+value := stringable.New("/foo/bar/baz").Dirname().Value()
+// "/foo/bar"
+```
+
 #### [ContainsAll](#available-methods)
 
 The ContainsAll method determines if the given string contains all of the values in the given array:
@@ -176,10 +185,10 @@ value := stringable.New("golang").Upper().Value()
 
 ## Unit Testing Matrix
 
-> | Go     | ubuntu | macos | windows |
-> | :----- | :----: | :---: | :-----: |
-> | 1.18.x |   ✓    |   ✓   |    ✓    |
-> | 1.20.x |   ✓    |   ✓   |    ✓    |
-> | 1.22.x |   ✓    |   ✓   |    ✓    |
+| golang | ubuntu | macos | windows |
+| :----- | :----: | :---: | :-----: |
+| 1.18.x |   ✓    |   ✓   |    ✓    |
+| 1.20.x |   ✓    |   ✓   |    ✓    |
+| 1.22.x |   ✓    |   ✓   |    ✓    |
 
 [![Go logo](https://reglue4go.github.io/docs/img/go/Go-Logo_Blue.svg 'Scroll up')](#top)
