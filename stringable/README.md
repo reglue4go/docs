@@ -36,25 +36,25 @@ func main() {
 Each method available on the stringable instance may be chained to fluently manipulate the underlying value.
 Almost every method returns a new stringable instance, allowing you to preserve the original copy of the value when necessary:
 
-| &#8230;                       | &#8230;                             | &#8230;                           | &#8230;                           |
-| :---------------------------- | :---------------------------------- | :-------------------------------- | :-------------------------------- |
-| [After](#after)               | [AfterLast](#afterlast)             | [Append](#append)                 | [Basename](#basename)             |
-| [Before](#before)             | [BeforeLast](#beforelast)           | [Between](#between)               | [BetweenFirst](#betweenfirst)     |
-| [Camel](#camel)               | [Contains](#contains)               | [ContainsAll](#containsall)       | [Dirname](#dirname)               |
-| [Dump](#dump)                 | [EndsWith](#endswith)               | [Exactly](#exactly)               | [Explode](#explode)               |
-| [Headline](#headline)         | [IsEmpty](#isempty)                 | [IsNotEmpty](#isnotempty)         | [Kebab](#Kebab)                   |
-| [Lcfirst](#lcfirst)           | [Length](#length)                   | [Limit](#limit)                   | [Lower](#lower)                   |
-| [Ltrim](#ltrim)               | [NewLine](#newline)                 | [Of](#Of)                         | [PadBoth](#padboth)               |
-| [PadLeft](#padleft)           | [PadRight](#padright)               | [Pipe](#pipe)                     | [Prepend](#prepend)               |
-| [Remove](#remove)             | [Repeat](#repeat)                   | [Replace](#replace)               | [ReplaceArray](#replacearray)     |
-| [ReplaceFirst](#replacefirst) | [Rtrim](#rtrim)                     | [Slug](#slug)                     | [Snake](#snake)                   |
-| [StartsWith](#startswith)     | [String](#string)                   | [Studly](#studly)                 | [Substr](#substr)                 |
-| [Title](#title)               | [ToBoolean](#toboolean)             | [ToDate](#todate)                 | [ToFloat](#tofloat)               |
-| [ToInteger](#tointeger)       | [ToString](#tostring)               | [Trim](#trim)                     | [Ucfirst](#ucfirst)               |
-| [Unless](#unless)             | [Upper](#upper)                     | [Value](#value)                   | [When](#when)                     |
-| [WhenContains](#whencontains) | [WhenContainsAll](#whencontainsall) | [WhenEmpty](#whenempty)           | [WhenEndsWith](#whenendswith)     |
-| [WhenExactly](#whenexactly)   | [WhenNotEmpty](#whennotempty)       | [WhenNotExactly](#whennotexactly) | [WhenStartsWith](#whenstartswith) |
-| [Wrap](#wrap)                 |                                     |                                   |                                   |
+|                       &#8230; |                             &#8230; |                           &#8230; |                           &#8230; |
+| ----------------------------: | ----------------------------------: | --------------------------------: | --------------------------------: |
+|               [After](#after) |             [AfterLast](#afterlast) |                 [Append](#append) |             [Basename](#basename) |
+|             [Before](#before) |           [BeforeLast](#beforelast) |               [Between](#between) |     [BetweenFirst](#betweenfirst) |
+|               [Camel](#camel) |               [Contains](#contains) |       [ContainsAll](#containsall) |               [Dirname](#dirname) |
+|                 [Dump](#dump) |               [EndsWith](#endswith) |               [Exactly](#exactly) |               [Explode](#explode) |
+|         [Headline](#headline) |                 [IsEmpty](#isempty) |         [IsNotEmpty](#isnotempty) |                   [Kebab](#Kebab) |
+|           [Lcfirst](#lcfirst) |                   [Length](#length) |                   [Limit](#limit) |                   [Lower](#lower) |
+|               [Ltrim](#ltrim) |                 [NewLine](#newline) |                         [Of](#Of) |               [PadBoth](#padboth) |
+|           [PadLeft](#padleft) |               [PadRight](#padright) |                     [Pipe](#pipe) |               [Prepend](#prepend) |
+|             [Remove](#remove) |                   [Repeat](#repeat) |               [Replace](#replace) |     [ReplaceArray](#replacearray) |
+| [ReplaceFirst](#replacefirst) |                     [Rtrim](#rtrim) |                     [Slug](#slug) |                   [Snake](#snake) |
+|     [StartsWith](#startswith) |                   [String](#string) |                 [Studly](#studly) |                 [Substr](#substr) |
+|               [Title](#title) |             [ToBoolean](#toboolean) |                 [ToDate](#todate) |               [ToFloat](#tofloat) |
+|       [ToInteger](#tointeger) |               [ToString](#tostring) |                     [Trim](#trim) |               [Ucfirst](#ucfirst) |
+|             [Unless](#unless) |                     [Upper](#upper) |                   [Value](#value) |                     [When](#when) |
+| [WhenContains](#whencontains) | [WhenContainsAll](#whencontainsall) |           [WhenEmpty](#whenempty) |     [WhenEndsWith](#whenendswith) |
+|   [WhenExactly](#whenexactly) |       [WhenNotEmpty](#whennotempty) | [WhenNotExactly](#whennotexactly) | [WhenStartsWith](#whenstartswith) |
+|                 [Wrap](#wrap) |                                     |                                   |                                   |
 
 ## Method Listing
 
