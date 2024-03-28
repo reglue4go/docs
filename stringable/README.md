@@ -1,9 +1,9 @@
 # Stringable
 
-[![Unit Test Coverage](https://img.shields.io/static/v1?label=coverage&message=100%&color=green&logo=coveralls)]
-[![linux](https://img.shields.io/static/v1?label=linux&message=✓&color=green&logo=linux)](#top)
-[![macos](https://img.shields.io/static/v1?label=macos&message=✓&color=green&logo=macos)](#top)
-[![windows](https://img.shields.io/static/v1?label=windows&message=✓&color=green&logo=windows10)](#top)
+![Unit test](https://img.shields.io/static/v1?label=coverage&message=100%&color=green&logo=coveralls)
+![linux](https://img.shields.io/static/v1?label=linux&message=✓&color=green&logo=linux)
+![macos](https://img.shields.io/static/v1?label=macos&message=✓&color=green&logo=apple)
+![windows](https://img.shields.io/static/v1?label=windows&message=✓&color=green&logo=windows10)
 
 > Table Of Contents
 >
@@ -54,6 +54,15 @@ Almost every method returns a new stringable instance, allowing you to preserve 
 | [Wrap](#wrap)                 |                                     |                                   |                                   |
 
 ## Method Listing
+
+#### [Between](#available-methods)
+
+The Between method returns the portion of a string between two values:
+
+```go
+value := stringable.New("This is my name").Between("This", "name").Value()
+// " is my "
+```
 
 #### [BeforeLast](#available-methods)
 
