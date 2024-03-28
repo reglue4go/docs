@@ -17,14 +17,14 @@
 
 The stringable package provides an expressive chainable interface for working with string values.
 
-```
+```go
 package main
 
 import "github.com/reglue4go/stringable"
 
 func main() {
-	title := stringable.New("GO").
-						Append("LanG").Ucfirst().Value()
+	title := stringable.New("GO").Append("LanG").Ucfirst().Value()
+
 	fmt.Printf("%v\n", title)
 	// Golang
 }
