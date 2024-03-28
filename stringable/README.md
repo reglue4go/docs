@@ -2,7 +2,7 @@
 
 [![Unit Test Coverage](https://img.shields.io/static/v1?label=coverage&message=100%&color=green&logo=coveralls)](https://github.com/reglue4go/stringable)
 
-[![Platform](https://img.shields.io/static/v1?label=linux&message=✓✓=#FCC624✓=linux)](https://github.com/reglue4go/stringable) [![Platform](https://img.shields.io/static/v1?label=macos&message=✓✓=#000000=macos)](https://github.com/reglue4go/stringable) [![Platform](https://img.shields.io/static/v1?label=windows10&message=✓✓=#0078D6=windows10)](https://github.com/reglue4go/stringable)
+[linux](https://img.shields.io/static/v1?label=linux&message=✓&color=#FCC624&logo=linux) [macos](https://img.shields.io/static/v1?label=macos&message=✓&color=#000000&logo=macos) [windows](https://img.shields.io/static/v1?label=windows10&message=✓&color=#0078D6&logo=windows10)
 
 > Table Of Contents
 >
