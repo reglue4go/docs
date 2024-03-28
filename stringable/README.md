@@ -11,7 +11,7 @@
 > -   [Introduction](#introduction)
 > -   [Available Methods](#available-methods)
 > -   [Method Listing](#method-listing)
-> -   [Unit Testing Matrix](#unit-testing-matrix)
+> -   [Unit Tests Matrix](#unit-tests-matrix)
 
 ## Introduction
 
@@ -36,7 +36,7 @@ func main() {
 Each method available on the stringable instance may be chained to fluently manipulate the underlying value.
 Almost every method returns a new stringable instance, allowing you to preserve the original copy of the value when necessary:
 
-|                               |                                     |                                   |                                   |
+| &mldr;                        | &mldr;                              | &mldr;                            | &mldr;                            |
 | ----------------------------- | ----------------------------------- | --------------------------------- | --------------------------------- |
 | [After](#after)               | [AfterLast](#afterlast)             | [Append](#append)                 | [Basename](#basename)             |
 | [Before](#before)             | [BeforeLast](#beforelast)           | [Between](#between)               | [BetweenFirst](#betweenfirst)     |
@@ -184,7 +184,7 @@ value := stringable.New("golang").Upper().Value()
 // GOLANG
 ```
 
-## Unit Testing Matrix
+## Unit Tests Matrix
 
 > This package has been successfully tested on the following platform versions.
 
