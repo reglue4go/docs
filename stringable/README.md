@@ -23,9 +23,10 @@ package main
 import "github.com/reglue4go/stringable"
 
 func main() {
-	title := stringable.New("GO").Append("LanG").Ucfirst().Value()
-
-	fmt.Printf("%v\n", title) // Golang
+	title := stringable.New("GO").
+						Append("LanG").Ucfirst().Value()
+	fmt.Printf("%v\n", title)
+	// Golang
 }
 
 ```
