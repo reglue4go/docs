@@ -36,8 +36,8 @@ func main() {
 Each method available on the stringable instance may be chained to fluently manipulate the underlying value.
 Almost every method returns a new stringable instance, allowing you to preserve the original copy of the value when necessary:
 
-| &mldr;                        | &mldr;                              | &mldr;                            | &mldr;                            |
-| ----------------------------- | ----------------------------------- | --------------------------------- | --------------------------------- |
+| &#8230;                       | &#8230;                             | &#8230;                           | &#8230;                           |
+| :---------------------------- | :---------------------------------- | :-------------------------------- | :-------------------------------- |
 | [After](#after)               | [AfterLast](#afterlast)             | [Append](#append)                 | [Basename](#basename)             |
 | [Before](#before)             | [BeforeLast](#beforelast)           | [Between](#between)               | [BetweenFirst](#betweenfirst)     |
 | [Camel](#camel)               | [Contains](#contains)               | [ContainsAll](#containsall)       | [Dirname](#dirname)               |
