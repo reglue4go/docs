@@ -2,7 +2,7 @@
 
 [![Reglue Go - Stringable](https://img.shields.io/static/v1?label=coverage&message=100%&color=green&logo=coveralls)](https://github.com/reglue4go/stringable)
 
-> Table of Contents
+> Table Of Contents
 >
 > -   [Introduction](#introduction)
 > -   [Available Methods](#available-methods)
@@ -30,12 +30,13 @@ func main() {
 Each method available on the stringable instance may be chained to fluently manipulate the underlying value.
 Almost every method returns a new stringable instance, allowing you to preserve the original copy of the value when necessary:
 
-|                     |                     |                               |                       |
-| ------------------- | ------------------- | ----------------------------- | --------------------- |
-| [Of](#Of)           | [NewLine](#NewLine) | [BeforeLast](#BeforeLast)     | [Append](#Append)     |
-| [Lower](#lower)     | [After](#After)     | [AfterLast](#AfterLast)       | [Substr](#substr)     |
-| [Upper](#upper)     | [Before](#before)   | [Between](#Between)           | [Basename](#Basename) |
-| [Ucfirst](#Ucfirst) | [Title](#Title)     | [BetweenFirst](#BetweenFirst) | [Camel](#Camel)       |
+|                     |                     |                               |                         |
+| ------------------- | ------------------- | ----------------------------- | ----------------------- |
+| [Of](#Of)           | [NewLine](#NewLine) | [BeforeLast](#BeforeLast)     | [Append](#Append)       |
+| [Lower](#lower)     | [After](#After)     | [AfterLast](#AfterLast)       | [Substr](#substr)       |
+| [Upper](#upper)     | [Before](#before)   | [Between](#Between)           | [Basename](#Basename)   |
+| [Ucfirst](#Ucfirst) | [Title](#Title)     | [BetweenFirst](#BetweenFirst) | [Camel](#Camel)         |
+| [String](#String)   | [Value](#Value)     | [ToDate](#ToDate)             | [ToBoolean](#ToBoolean) |
 
 ## Method Listing
 
