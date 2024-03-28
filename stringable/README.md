@@ -57,7 +57,8 @@ Almost every method returns a new stringable instance, allowing you to preserve 
 The Basename method will return the trailing name component of the given string:
 
 ```go
-value := stringable.New("/foo/bar/baz").Basename().Value() //  "baz"
+value := stringable.New("/foo/bar/baz").Basename().Value()
+// "baz"
 ```
 
 #### [Append](#available-methods)
@@ -65,7 +66,8 @@ value := stringable.New("/foo/bar/baz").Basename().Value() //  "baz"
 The Append method appends the given values to the string:
 
 ```go
-value := stringable.New("Pater").Append(" ", "White").Value() //  "Pater White"
+value := stringable.New("Pater").Append(" ", "White").Value()
+// "Pater White"
 ```
 
 #### [AfterLast](#available-methods)
@@ -73,7 +75,8 @@ value := stringable.New("Pater").Append(" ", "White").Value() //  "Pater White"
 The AfterLast method method returns everything after the last occurrence of the given value in a string. The entire string will be returned if the value does not exist within the string:
 
 ```go
-value := stringable.New("App\Http\Controllers\Controller").AfterLast("\\").Value() //  "Controller"
+value := stringable.New("App\Http\Controllers\Controller").AfterLast("\\").Value()
+// "Controller"
 ```
 
 #### [After](#available-methods)
@@ -81,7 +84,8 @@ value := stringable.New("App\Http\Controllers\Controller").AfterLast("\\").Value
 The After method method returns everything after the given value in a string. The entire string will be returned if the value does not exist within the string:
 
 ```go
-value := stringable.New("This is my name").After("This is").Value() //  " my name"
+value := stringable.New("This is my name").After("This is").Value()
+// " my name"
 ```
 
 #### [Lower](#available-methods)
@@ -89,7 +93,8 @@ value := stringable.New("This is my name").After("This is").Value() //  " my nam
 The Lower method converts the given string to lowercase:
 
 ```go
-value := stringable.New("GOLANG").Lower().Value() // golang
+value := stringable.New("GOLANG").Lower().Value()
+// golang
 ```
 
 #### [Upper](#available-methods)
@@ -97,7 +102,8 @@ value := stringable.New("GOLANG").Lower().Value() // golang
 The Upper method converts the given string to uppercase:
 
 ```go
-value := stringable.New("golang").Upper().Value() // GOLANG
+value := stringable.New("golang").Upper().Value()
+// GOLANG
 ```
 
 [![Go logo](https://reglue4go.github.io/docs/img/go/Go-Logo_Blue.svg 'Scroll up')](#top)
