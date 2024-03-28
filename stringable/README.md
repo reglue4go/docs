@@ -1,9 +1,10 @@
 # Stringable
 
-[![Unit test](https://img.shields.io/static/v1?label=coverage&message=100%&color=green&logo=coveralls)](#top)
-[![linux](https://img.shields.io/static/v1?message=✓&color=green&logo=linux)](#top)
-[![macos](https://img.shields.io/static/v1?message=✓&color=green&logo=apple)](#top)
-[![windows](https://img.shields.io/static/v1?message=✓&color=green&logo=windows10)](#top)
+[![tests](https://img.shields.io/static/v1?label=coverage&message=100%&color=green&logo=coveralls)](#top)
+
+[![linux](https://img.shields.io/static/v1?label=linux&message=✓&color=green&logo=linux)](#top)
+[![macos](https://img.shields.io/static/v1?label=macos&message=✓&color=green&logo=apple)](#top)
+[![windows](https://img.shields.io/static/v1?label=windows&message=✓&color=green&logo=windows10)](#top)
 
 > Table Of Contents
 >
@@ -54,6 +55,15 @@ Almost every method returns a new stringable instance, allowing you to preserve 
 | [Wrap](#wrap)                 |                                     |                                   |                                   |
 
 ## Method Listing
+
+#### [BetweenFirst](#available-methods)
+
+The BetweenFirst method returns the smallest possible portion of a string between two values:
+
+```go
+value := stringable.New("[a] bc [d]").BetweenFirst("[", "]").Value()
+// "a"
+```
 
 #### [Between](#available-methods)
 
