@@ -30,13 +30,25 @@ func main() {
 Each method available on the stringable instance may be chained to fluently manipulate the underlying value.
 Almost every method returns a new stringable instance, allowing you to preserve the original copy of the value when necessary:
 
-|                     |                     |                               |                         |
-| ------------------- | ------------------- | ----------------------------- | ----------------------- |
-| [Of](#Of)           | [NewLine](#NewLine) | [BeforeLast](#BeforeLast)     | [Append](#Append)       |
-| [Lower](#lower)     | [After](#After)     | [AfterLast](#AfterLast)       | [Substr](#substr)       |
-| [Upper](#upper)     | [Before](#before)   | [Between](#Between)           | [Basename](#Basename)   |
-| [Ucfirst](#Ucfirst) | [Title](#Title)     | [BetweenFirst](#BetweenFirst) | [Camel](#Camel)         |
-| [String](#String)   | [Value](#Value)     | [ToDate](#ToDate)             | [ToBoolean](#ToBoolean) |
+|                               |                                     |                                   |                                   |
+| ----------------------------- | ----------------------------------- | --------------------------------- | --------------------------------- |
+| [After](#after)               | [AfterLast](#afterLast)             | [Append](#append)                 | [Basename](#basename)             |
+| [Before](#before)             | [BeforeLast](#beforeLast)           | [Between](#between)               | [BetweenFirst](#betweenFirst)     |
+| [Camel](#camel)               | [Contains](#contains)               | [ContainsAll](#containsAll)       | [Dirname](#dirname)               |
+| [Dump](#dump)                 | [EndsWith](#endsWith)               | [Exactly](#exactly)               | [Explode](#explode)               |
+| [Headline](#headline)         | [IsEmpty](#isEmpty)                 | [IsNotEmpty](#isNotEmpty)         | [Kebab](#Kebab)                   |
+| [Lcfirst](#lcfirst)           | [Length](#length)                   | [Limit](#limit)                   | [Lower](#lower)                   |
+| [Ltrim](#ltrim)               | [NewLine](#newLine)                 | [Of](#Of)                         | [PadBoth](#padBoth)               |
+| [PadLeft](#padLeft)           | [PadRight](#padRight)               | [Pipe](#pipe)                     | [Prepend](#prepend)               |
+| [Remove](#remove)             | [Repeat](#repeat)                   | [Replace](#replace)               | [ReplaceArray](#replaceArray)     |
+| [ReplaceFirst](#replaceFirst) | [Rtrim](#rtrim)                     | [Slug](#slug)                     | [Snake](#snake)                   |
+| [StartsWith](#startsWith)     | [String](#string)                   | [Studly](#studly)                 | [Substr](#substr)                 |
+| [Title](#title)               | [ToBoolean](#toBoolean)             | [ToDate](#toDate)                 | [ToFloat](#toFloat)               |
+| [ToInteger](#toInteger)       | [ToString](#toString)               | [Trim](#trim)                     | [Ucfirst](#ucfirst)               |
+| [Unless](#unless)             | [Upper](#upper)                     | [Value](#value)                   | [When](#when)                     |
+| [WhenContains](#whenContains) | [WhenContainsAll](#whenContainsAll) | [WhenEmpty](#whenEmpty)           | [WhenEndsWith](#whenEndsWith)     |
+| [WhenExactly](#whenExactly)   | [WhenNotEmpty](#whenNotEmpty)       | [WhenNotExactly](#whenNotExactly) | [WhenStartsWith](#whenStartsWith) |
+| [Wrap](#wrap)                 |                                     |                                   |                                   |
 
 ## Method Listing
 
