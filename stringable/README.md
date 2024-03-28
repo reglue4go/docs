@@ -2,6 +2,8 @@
 
 [![Unit Test Coverage](https://img.shields.io/static/v1?label=coverage&message=100%&color=green&logo=coveralls)](https://github.com/reglue4go/stringable)
 
+[![Platform](https://img.shields.io/static/v1?label=linux&message=✓✓=#FCC624✓=linux)](https://github.com/reglue4go/stringable) [![Platform](https://img.shields.io/static/v1?label=macos&message=✓✓=#000000=macos)](https://github.com/reglue4go/stringable) [![Platform](https://img.shields.io/static/v1?label=windows10&message=✓✓=#0078D6=windows10)](https://github.com/reglue4go/stringable)
+
 > Table Of Contents
 >
 > -   [Introduction](#introduction)
@@ -66,8 +68,8 @@ value := stringable.New("/foo/bar/baz").Basename().Value()
 The Append method appends the given values to the string:
 
 ```go
-value := stringable.New("Pater").Append(" ", "White").Value()
-// "Pater White"
+value := stringable.New("Paula").Append(" ", "White").Value()
+// "Paula White"
 ```
 
 #### [AfterLast](#available-methods)
