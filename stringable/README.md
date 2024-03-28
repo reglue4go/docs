@@ -30,11 +30,12 @@ func main() {
 Each method available on the stringable instance may be chained to fluently manipulate the underlying value.
 Almost every method returns a new stringable instance, allowing you to preserve the original copy of the value when necessary:
 
-|                 |                     |                           |                       |
-| --------------- | ------------------- | ------------------------- | --------------------- |
-| [Of](#Of)       | [NewLine](#NewLine) | [BeforeLast](#BeforeLast) | [Append](#Append)     |
-| [Lower](#lower) | [After](#After)     | [AfterLast](#AfterLast)   | [Substr](#substr)     |
-| [Upper](#upper) | [Before](#before)   | [Between](#Between)       | [Basename](#Basename) |
+|                     |                     |                               |                       |
+| ------------------- | ------------------- | ----------------------------- | --------------------- |
+| [Of](#Of)           | [NewLine](#NewLine) | [BeforeLast](#BeforeLast)     | [Append](#Append)     |
+| [Lower](#lower)     | [After](#After)     | [AfterLast](#AfterLast)       | [Substr](#substr)     |
+| [Upper](#upper)     | [Before](#before)   | [Between](#Between)           | [Basename](#Basename) |
+| [Ucfirst](#Ucfirst) | [Title](#Title)     | [BetweenFirst](#BetweenFirst) | [Camel](#Camel)       |
 
 ## Method Listing
 
