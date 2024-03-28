@@ -186,6 +186,8 @@ value := stringable.New("golang").Upper().Value()
 
 ## Unit Testing Matrix
 
+> This package has been successfully tested on the following platform versions.
+
 | golang | ubuntu | macos | windows |
 | :----- | :----: | :---: | :-----: |
 | 1.18.x |   ✓    |   ✓   |    ✓    |
