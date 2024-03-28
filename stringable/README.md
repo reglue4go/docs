@@ -1,10 +1,10 @@
 # Stringable
 
-[![tests](https://img.shields.io/static/v1?label=coverage&message=100%&color=green&logo=coveralls)](#top)
-
 [![linux](https://img.shields.io/static/v1?label=linux&message=✓&color=green&logo=linux)](#top)
 [![macos](https://img.shields.io/static/v1?label=macos&message=✓&color=green&logo=apple)](#top)
 [![windows](https://img.shields.io/static/v1?label=windows&message=✓&color=green&logo=windows10)](#top)
+
+[![tests](https://img.shields.io/static/v1?label=coverage&message=100%&color=green&logo=coveralls)](#top)
 
 > Table Of Contents
 >
@@ -55,6 +55,33 @@ Almost every method returns a new stringable instance, allowing you to preserve 
 | [Wrap](#wrap)                 |                                     |                                   |                                   |
 
 ## Method Listing
+
+#### [ContainsAll](#available-methods)
+
+The ContainsAll method determines if the given string contains all of the values in the given array:
+
+```go
+value := stringable.New("This is my name").ContainsAll("my", "name")
+// true
+```
+
+#### [Contains](#available-methods)
+
+The Contains method determines if the given string contains the given value. This method is case sensitive:
+
+```go
+value := stringable.New("This is my name").Contains("my")
+// true
+```
+
+#### [Camel](#available-methods)
+
+The Camel method converts the given string to camelCase:
+
+```go
+value := stringable.New("foo_bar").Camel().Value()
+// "fooBar"
+```
 
 #### [BetweenFirst](#available-methods)
 
